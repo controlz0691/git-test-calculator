@@ -6,7 +6,7 @@ public class Calc {
 	public int sub(int x, int y) { //subtraction method
 		return x-y;
 	}
-	public int mul(int x, int y) { //multiply method 1
+	public int mul(int x, int y) { //multiply method 1 2
 		return x*y;
 	}
 }
