@@ -1,7 +1,7 @@
 public class Calc {
-	
-	private = int r = 0;
 
+	private int r = 0;
+	
 	public int add(int x, int y) { //add method
 		return x+y;
 	}
@@ -14,5 +14,8 @@ public class Calc {
 	}
 	public void inc(int x) { //increincre method
 		r = r + x;
+	}
+	public void dec(int x) { //dec method
+		r = r - x;
 	}
 }
